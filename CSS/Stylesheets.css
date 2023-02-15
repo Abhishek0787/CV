@@ -1,0 +1,30 @@
+h1{
+    color: #443C68;
+}
+h3{
+    color: #A7727D;
+}
+
+body{
+   background-color: #E5E0FF;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+.love{
+    border-style: dotted;
+    border-color: #E5E0FF;
+    border-width: 5px;
+}
+.first{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ECF2FF;
+}
+.love :hover{
+    background-color: paleturquoise;
+}
