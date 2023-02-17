@@ -1,30 +1,48 @@
-h1{
-    color: #443C68;
-}
-h3{
-    color: #A7727D;
-}
 
 body{
-   background-color: #E5E0FF;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Merriweather', serif;  
+}
+h3{
+    font-family: 'Merriweather', serif;
 }
 hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
+    border: none;
+    border-top: dotted;
+    color: #AD7BE9;
     border-width: 5px;
     width: 5%;
 }
-.love{
-    border-style: dotted;
-    border-color: #E5E0FF;
-    border-width: 5px;
+.hey{
+    text-decoration-line: underline;
 }
-.first{
-    border-style: dashed;
-    border-width: 2px;
-    border-color: #ECF2FF;
+
+.Top-container{
+    background-color: #e4f9f5;
+    padding-top : 150px;
+    position: relative;
 }
-.love :hover{
-    background-color: paleturquoise;
+
+.middle-container{
+    background-color: #BFDCE5;
+}
+.bottom-container{
+    background-color: powderblue;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.other-cloud{
+    position: absolute;
+    left: 300px;
 }
